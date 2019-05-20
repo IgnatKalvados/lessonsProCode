@@ -11,9 +11,9 @@ for (i=1; i<m.length; i++) {
     if (m[i] < min) {
     min = m[i];
     min_ind = i;
-    } // if
-document.write(m[i] +" ");
+    } 
+}// if
+document.write(m +" ");
 //for
 document.write('<br>Mинимyм: ' + min);
 document.write('<br>Индeкc: ' + min_ind); 
-}
