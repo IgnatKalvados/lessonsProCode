@@ -1,0 +1,231 @@
+@charset "UTF-8";
+@font-face {
+  font-family: NovaBold;
+  src: url("C:/Users/Яна/Desktop/lesson/0305/fonts/ProximaNova-Bold.ttf");
+}
+
+@font-face {
+  font-family: Extrabld;
+  src: url("C:/Users/Яна/Desktop/lesson/0305/fonts/ProximaNova-Extrabld.ttf");
+}
+
+@font-face {
+  font-family: Regular;
+  src: url("C:/Users/Яна/Desktop/lesson/0305/fonts/ProximaNova-Regular.ttf");
+}
+
+@font-face {
+  font-family: Semibold;
+  src: url("C:/Users/Яна/Desktop/lesson/0305/fonts/ProximaNova-Semibold.ttf");
+}
+
+header {
+  background-color: #296DCE;
+  height: 100vh;
+  max-width: 1600px;
+}
+
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.white_top {
+  background-color: #FFFFFF;
+  max-height: 72px;
+}
+
+.header_topline_white {
+  min-height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo img {
+  padding: 20px 0;
+}
+
+.header_menu {
+  font-size: 16px;
+  line-height: 19px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.header_menu a {
+  font-family: Semibold;
+  color: #222B3A;
+  text-decoration: none;
+  margin-left: 30px;
+  padding: 27px 0;
+}
+
+.main_header_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.header_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header_title h1 {
+  font-family: Regular;
+  color: #FFFFFF;
+  font-size: 38px;
+  line-height: 53px;
+  margin: 60px 0 5px 0;
+}
+
+.header_title h2 {
+  font-family: Regular;
+  color: #FC890D;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.header_title a {
+  font-family: Semibold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  border: 1.5px solid #FFFFFF;
+  height: 44px;
+  width: 209px;
+  border-radius: 5px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 29px 0 75px 0;
+}
+
+.header_title .progress_bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 468px;
+  height: 15px;
+  background: #F3F3F3;
+  border: 1px solid #F3F3F3;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.header_title .progress_bar .progress {
+  width: 259px;
+  height: 9px;
+  background: #296DCE;
+  border-radius: 2px;
+}
+
+.header_title .processing_number {
+  font-family: Semibold;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 340px;
+  color: #FFFFFF;
+  margin-top: 7px;
+}
+
+.header_title .processing_number .total {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_title .processing_number .total div {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.header_title .processing_number .done {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header_title .processing_number .done div {
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.header_title .carpachoff_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-width: 339px;
+  min-height: 479px;
+}
+
+.header_title .carpachoff_img ::before {
+  background-image: url("C:/Users/Яна/Desktop/lesson/0305/images/karpachoff.png");
+}
+/*# sourceMappingURL=course.css.map */

@@ -1,0 +1,30 @@
+/*.father {
+    width: 500px;
+    height: 600px;
+    display: grid;
+    justify-items: end;
+    grid-auto-columns: 200px;
+    grid-auto-flow: row;
+    grid-template-rows: 200px;
+    grid-template-columns: 200px 200px;
+
+    div {
+        height: 50px;
+        width: 50px;
+        border: 1px solid black;    
+    
+    &:nth-child(6) {
+        justify-self: start;
+        align-self: end;
+    }
+    }
+}*/
+.two {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+/*# sourceMappingURL=style.css.map */

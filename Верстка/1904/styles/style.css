@@ -1,0 +1,80 @@
+.therd {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 400px;
+  width: 400px;
+  background-color: #afb6af;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 25px;
+}
+
+.therd p {
+  margin: 0;
+}
+
+.therd p:hover::before {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+  background-color: black;
+}
+
+.therd p::before {
+  content: "";
+  height: 2px;
+  width: 380px;
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  left: 18px;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.therd p::after {
+  content: "";
+  height: 2px;
+  width: 380px;
+  background-color: green;
+  position: absolute;
+  top: 380px;
+  left: 18px;
+}
+
+.therd:nth-child(2):hover {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+  background-color: black;
+}
+
+.therd:nth-child(2)::before {
+  content: "";
+  width: 2px;
+  height: 380px;
+  background-color: green;
+  position: absolute;
+  top: 12px;
+  left: 28px;
+}
+
+.therd:nth-child(2)::after {
+  content: "";
+  width: 2px;
+  height: 380px;
+  background-color: green;
+  position: absolute;
+  top: 12px;
+  left: 388px;
+}
+/*# sourceMappingURL=style.css.map */

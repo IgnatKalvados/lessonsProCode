@@ -1,0 +1,43 @@
+.one {
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    display: flex;
+}
+.two{   
+    height: 100px;
+    width: 100px;
+    border: 1px solid gray;
+    
+}
+.three {
+    height: 100px;
+    width: 200px;
+    border: 1px solid gray;
+}
+.parents {
+    display: flex; 
+    justify-content: space-between; /*горизонталь расположение контента*/
+    /*flex-direction: row-reverse;*/
+    
+    /*height: 500px;
+    align-items: stretch;*/
+    height: 500px;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.child {
+flex-grow: 1;
+height: 50px;
+border: 1px solid red;
+}
+.child_fat {
+    flex-grow: 2;
+    height: 50px;
+    border: 1px solid red;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,30 @@
+@import'./variables.scss';
+* {
+    padding: 0;
+}
+.box {
+    height: 300px;
+    width: 150px;
+    border: 1px solid grey;
+    background-color: $yellow;
+    p {
+        color: red;
+    }
+    a {
+        font-size: 24px;
+        text-decoration: none;
+    }
+    div {
+        height: 100px;
+        width: 140px;
+        border: 1px solid blue;
+    h1 {    
+        color: green;
+    }
+    }
+}
+.box2 {
+    height: 100px;
+    width: 100px;
+    border: 1px solid red;
+}

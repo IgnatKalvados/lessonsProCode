@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.head {
+    height: 600px;
+    background-color: blue;    
+}
+.container {
+width: 50%;
+}
+.half {
+    padding: 50px;
+}
+ .half h1 {
+
+}
+p {
+margin-top: 150px;
+}
+.half::before {
+    position: absolute;
+    content: url(./thumb.png);
+    background-color: blue;
+    right: 20px;
+    
+}
